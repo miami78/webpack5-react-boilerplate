@@ -23,7 +23,7 @@ You can view the development server at `localhost:8080`.
 ### Production build
 
 ```bash
- yarn start / npm run build
+ yarn build / npm run build
 ```
 
 ## Features
