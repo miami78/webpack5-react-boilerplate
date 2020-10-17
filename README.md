@@ -15,7 +15,7 @@ yarn / npm i
 ### Development server
 
 ```bash
-npm start
+yarn start / npm start
 ```
 
 You can view the development server at `localhost:8080`.
@@ -23,7 +23,7 @@ You can view the development server at `localhost:8080`.
 ### Production build
 
 ```bash
-npm run build
+ yarn start / npm run build
 ```
 
 ## Features
@@ -31,6 +31,7 @@ npm run build
 - [webpack](https://webpack.js.org/)
 - [Babel](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
+- [Eslint](https://eslint.org/)
 
 ## Dependencies
 
@@ -55,6 +56,15 @@ npm run build
   - [`node-sass`](https://github.com/sass/node-sass) - Node Sass
 - [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve CSS imports
 - [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject CSS into the DOM
+
+### Eslint
+- [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier) - Turns off all rules that are unnecessary or might conflict with Prettier.
+- [`eslint-import-resolver-alias`](https://www.npmjs.com/package/eslint-import-resolver-alias) - a simple Node behavior import resolution plugin for eslint-plugin-import, supporting module alias.
+- [`eslint-plugin-babel`](https://www.npmjs.com/package/eslint-plugin-babel) - an eslint rule plugin companion to babel-eslint.
+- [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import) - This plugin intends to support linting of ES2015+ (ES6+) import/export syntax, and prevent issues with misspelling of file paths and import names.
+- [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) - Runs prettier as an eslint rule.
+- [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react) - React specific linting rules for ESLint.
+
 
 ### Plugins
 
